@@ -1,1 +1,4 @@
-../wrapdocker
+#!/bin/bash
+set -e
+
+exec docker daemon $DOCKER_DAEMON_ARGS

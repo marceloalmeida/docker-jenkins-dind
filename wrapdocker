@@ -1,4 +1,1 @@
-#!/bin/bash
-set -e
-
-exec docker daemon $DOCKER_DAEMON_ARGS
+2.42/wrapdocker
