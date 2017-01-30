@@ -19,6 +19,7 @@ RUN apt-get update -qq && apt-get install -qqy --no-install-recommends \
     default-jre-headless \
     daemon \
     net-tools \
+    ssh \
     psmisc && \
     curl -s -L -O http://pkg.jenkins-ci.org/debian/binary/jenkins_${JENKINS_VERSION}_all.deb && \
     dpkg -i jenkins_${JENKINS_VERSION}_all.deb && \
