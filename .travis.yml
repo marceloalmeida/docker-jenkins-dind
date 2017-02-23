@@ -3,6 +3,8 @@ services: docker
 
 env:
   - VERSION=latest
+  - VERSION=2.47
+  - VERSION=2.46
   - VERSION=2.45
   - VERSION=2.44
   - VERSION=2.43
