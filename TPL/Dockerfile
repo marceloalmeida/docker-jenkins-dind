@@ -7,16 +7,17 @@ ENV \
   JENKINS_VERSION="JENKINS_VERSION_TPL"
 
 # Let's start with some basic stuff.
-RUN apt-get update -qq && apt-get install -qqy --no-install-recommends \
+RUN apt-get update && apt-get -t jessie-backports install -y --no-install-recommends \
     apt-transport-https \
     ca-certificates \
+    ca-certificates-java \
     curl \
     lxc \
     iptables \
     git \
     zip \
     supervisor \
-    default-jre-headless \
+    openjdk-8-jre-headless \
     daemon \
     net-tools \
     ssh \

@@ -4,7 +4,7 @@ MAINTAINER Marcelo Almeida <ms.almeida86@gmail.com>
 
 ENV \
   DEBIAN_FRONTEND="noninteractive" \
-  JENKINS_VERSION="2.54"
+  JENKINS_VERSION="2.55"
 
 # Let's start with some basic stuff.
 RUN apt-get update && apt-get -t jessie-backports install -y --no-install-recommends \
