@@ -1,6 +1,6 @@
 # Jenkins DinD (Docker in Docker)
 
-[![Build Status](https://travis-ci.org/marcelosousaalmeida/docker-jenkins-dind.svg?branch=master)](https://travis-ci.org/marcelosousaalmeida/docker-jenkins-dind)
+[![Build Status](https://travis-ci.org/marceloalmeida/docker-jenkins-dind.svg?branch=master)](https://travis-ci.org/marceloalmeida/docker-jenkins-dind)
 
 This Jenkins Docker image provides Docker inside itself, which allows you to run any Docker container in your Jenkins build script.
 

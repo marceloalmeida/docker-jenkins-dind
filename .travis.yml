@@ -19,7 +19,7 @@ install:
 before_script:
   - env | sort
   - test latest = "$VERSION" || cd "$VERSION"
-  - image="marcelosousaalmeida/docker-jenkins-dind:${VERSION}"
+  - image="marceloalmeida/docker-jenkins-dind:${VERSION}"
 
 script:
   - docker build -t "$image" .
